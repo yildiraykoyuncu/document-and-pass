@@ -39,4 +39,4 @@ Failures:
     Error: Expected undefined to equal 'snake_case_is_awesome'.
 
 6 specs, 6 failures
-Finished in 0.016 seconds
+Finished in 0.006 seconds

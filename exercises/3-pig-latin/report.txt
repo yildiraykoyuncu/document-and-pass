@@ -57,4 +57,4 @@ Failures:
     Error: Expected undefined to equal 'ethay ickquay ownbray oxfay'.
 
 9 specs, 9 failures
-Finished in 0.031 seconds
+Finished in 0.008 seconds

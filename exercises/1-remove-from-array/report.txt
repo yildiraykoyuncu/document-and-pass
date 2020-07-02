@@ -45,8 +45,4 @@ Failures:
     Error: Expected undefined to equal [ 1, 2 ].
 
 7 specs, 7 failures
-<<<<<<< HEAD
-Finished in 0.03 seconds
-=======
-Finished in 0.007 seconds
->>>>>>> 36809b7b3fb8ad154090362538c3df2eb63e6c9c
+Finished in 0.008 seconds

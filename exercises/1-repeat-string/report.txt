@@ -45,4 +45,4 @@ Failures:
     Error: Expected undefined to equal ''.
 
 7 specs, 7 failures
-Finished in 0.025 seconds
+Finished in 0.007 seconds
