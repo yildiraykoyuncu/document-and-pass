@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/2/2020, 3:05:54 PM
+> 7/2/2020, 3:08:13 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.01 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -113,7 +113,7 @@ Failures:
     Error: Expected undefined to equal [ 1, 2 ].
 
 7 specs, 7 failures
-Finished in 0.008 seconds
+Finished in 0.012 seconds
 
 ```
 
@@ -177,7 +177,7 @@ Failures:
     Error: Expected undefined to equal ''.
 
 7 specs, 7 failures
-Finished in 0.007 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -223,7 +223,7 @@ Failures:
     Error: Expected undefined to equal ''.
 
 4 specs, 4 failures
-Finished in 0.004 seconds
+Finished in 0.003 seconds
 
 ```
 
@@ -385,7 +385,7 @@ Failures:
     Error: Expected undefined to equal [ 'Book', 'Book2' ].
 
 1 spec, 1 failure
-Finished in 0.002 seconds
+Finished in 0.001 seconds
 
 ```
 
@@ -495,7 +495,7 @@ Failures:
     Error: Expected undefined to equal false.
 
 5 specs, 5 failures
-Finished in 0.005 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -599,7 +599,7 @@ Failures:
 
 
 3 specs, 3 failures
-Finished in 0.003 seconds
+Finished in 0.002 seconds
 
 ```
 
@@ -733,7 +733,7 @@ Failures:
     Error: Expected undefined to equal 'snake_case_is_awesome'.
 
 6 specs, 6 failures
-Finished in 0.006 seconds
+Finished in 0.005 seconds
 
 ```
 
