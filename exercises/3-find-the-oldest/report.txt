@@ -21,4 +21,4 @@ Failures:
 
 
 3 specs, 3 failures
-Finished in 0.006 seconds
+Finished in 0.002 seconds

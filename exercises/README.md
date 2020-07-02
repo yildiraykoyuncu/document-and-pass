@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/2/2020, 4:48:08 PM
+> 7/2/2020, 3:08:13 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -21,10 +21,6 @@
 <!-- END TOC -->
 
 <!-- BEGIN DOCS -->
-<<<<<<< HEAD
-=======
-> 7/2/2020, 12:30:01 PM
->>>>>>> 36809b7b3fb8ad154090362538c3df2eb63e6c9c
 ---
 
 ## [./0-hello-world](./0-hello-world)
@@ -49,19 +45,11 @@ console.log(greeting); // 'Hello, World!'
 **Tests**
 ```
 Started
-<<<<<<< HEAD
 ......
 
 
 2 specs, 0 failures
-Finished in 0.023 seconds
-=======
-...
-
-
-1 spec, 0 failures
-Finished in 0.005 seconds
->>>>>>> 36809b7b3fb8ad154090362538c3df2eb63e6c9c
+Finished in 0.006 seconds
 
 ```
 
@@ -84,7 +72,6 @@ Started
 Failures:
 1) removeFromArray removes a single value
   Message:
-<<<<<<< HEAD
 .    Expected undefined to equal [ 1, 2, 4 ]..
 
     Error: Expected undefined to equal [ 1, 2, 4 ].
@@ -124,71 +111,9 @@ Failures:
 .    Expected undefined to equal [ 1, 2 ]..
 
     Error: Expected undefined to equal [ 1, 2 ].
-=======
-.    TypeError: removeFromArray is not a function.
-  Stack:
-        at <Jasmine>
-        at UserContext.<anonymous> ( ... /1-remove-from-array/index.spec.js:5:12)
-        at <Jasmine>
-        at processImmediate (internal/timers.js:456:21)
-
-2) removeFromArray removes multiple values
-  Message:
-.    TypeError: removeFromArray is not a function.
-  Stack:
-        at <Jasmine>
-        at UserContext.<anonymous> ( ... /1-remove-from-array/index.spec.js:8:12)
-        at <Jasmine>
-        at processImmediate (internal/timers.js:456:21)
-
-3) removeFromArray ignores non present values
-  Message:
-.    TypeError: removeFromArray is not a function.
-  Stack:
-        at <Jasmine>
-        at UserContext.<anonymous> ( ... /1-remove-from-array/index.spec.js:11:12)
-        at <Jasmine>
-        at processImmediate (internal/timers.js:456:21)
-
-4) removeFromArray ignores non present values, but still works
-  Message:
-.    TypeError: removeFromArray is not a function.
-  Stack:
-        at <Jasmine>
-        at UserContext.<anonymous> ( ... /1-remove-from-array/index.spec.js:14:12)
-        at <Jasmine>
-        at processImmediate (internal/timers.js:456:21)
-
-5) removeFromArray can remove all values
-  Message:
-.    TypeError: removeFromArray is not a function.
-  Stack:
-        at <Jasmine>
-        at UserContext.<anonymous> ( ... /1-remove-from-array/index.spec.js:17:12)
-        at <Jasmine>
-        at processImmediate (internal/timers.js:456:21)
-
-6) removeFromArray works with strings
-  Message:
-.    TypeError: removeFromArray is not a function.
-  Stack:
-        at <Jasmine>
-        at UserContext.<anonymous> ( ... /1-remove-from-array/index.spec.js:20:12)
-        at <Jasmine>
-        at processImmediate (internal/timers.js:456:21)
-
-7) removeFromArray only removes same type
-  Message:
-.    TypeError: removeFromArray is not a function.
-  Stack:
-        at <Jasmine>
-        at UserContext.<anonymous> ( ... /1-remove-from-array/index.spec.js:23:12)
-        at <Jasmine>
-        at processImmediate (internal/timers.js:456:21)
->>>>>>> 36809b7b3fb8ad154090362538c3df2eb63e6c9c
 
 7 specs, 7 failures
-Finished in 0.03 seconds
+Finished in 0.012 seconds
 
 ```
 
@@ -252,7 +177,7 @@ Failures:
     Error: Expected undefined to equal ''.
 
 7 specs, 7 failures
-Finished in 0.025 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -298,7 +223,7 @@ Failures:
     Error: Expected undefined to equal ''.
 
 4 specs, 4 failures
-Finished in 0.006 seconds
+Finished in 0.003 seconds
 
 ```
 
@@ -356,7 +281,7 @@ Failures:
     Error: Expected undefined to equal 'ERROR'.
 
 6 specs, 6 failures
-Finished in 0.022 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -432,7 +357,7 @@ Failures:
     Error: Expected undefined to equal 21.
 
 9 specs, 9 failures
-Finished in 0.015 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -460,7 +385,7 @@ Failures:
     Error: Expected undefined to equal [ 'Book', 'Book2' ].
 
 1 spec, 1 failure
-Finished in 0.004 seconds
+Finished in 0.001 seconds
 
 ```
 
@@ -518,7 +443,7 @@ Failures:
     Error: Expected undefined to equal false.
 
 6 specs, 6 failures
-Finished in 0.014 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -570,7 +495,7 @@ Failures:
     Error: Expected undefined to equal false.
 
 5 specs, 5 failures
-Finished in 0.009 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -634,7 +559,7 @@ Failures:
     Error: Expected undefined to equal 'Ebiil, Tloia!'.
 
 7 specs, 7 failures
-Finished in 0.015 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -674,7 +599,7 @@ Failures:
 
 
 3 specs, 3 failures
-Finished in 0.006 seconds
+Finished in 0.002 seconds
 
 ```
 
@@ -750,7 +675,7 @@ Failures:
     Error: Expected undefined to equal 'ethay ickquay ownbray oxfay'.
 
 9 specs, 9 failures
-Finished in 0.031 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -808,7 +733,7 @@ Failures:
     Error: Expected undefined to equal 'snake_case_is_awesome'.
 
 6 specs, 6 failures
-Finished in 0.016 seconds
+Finished in 0.005 seconds
 
 ```
 

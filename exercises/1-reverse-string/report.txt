@@ -27,4 +27,4 @@ Failures:
     Error: Expected undefined to equal ''.
 
 4 specs, 4 failures
-Finished in 0.006 seconds
+Finished in 0.003 seconds
