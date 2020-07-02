@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/2/2020, 3:08:13 PM
+> 7/2/2020, 3:12:52 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -45,11 +45,23 @@ console.log(greeting); // 'Hello, World!'
 **Tests**
 ```
 Started
-......
+.F..F.
 
+Failures:
+1) Hello says hello world
+  Message:
+.    Expected '' to equal 'Hello, World!'..
 
-2 specs, 0 failures
-Finished in 0.006 seconds
+    Error: Expected '' to equal 'Hello, World!'.
+
+2) Hello says hello toys
+  Message:
+.    Expected '' to equal 'Hello, toys!'..
+
+    Error: Expected '' to equal 'Hello, toys!'.
+
+2 specs, 2 failures
+Finished in 0.009 seconds
 
 ```
 
@@ -113,7 +125,7 @@ Failures:
     Error: Expected undefined to equal [ 1, 2 ].
 
 7 specs, 7 failures
-Finished in 0.012 seconds
+Finished in 0.009 seconds
 
 ```
 
@@ -177,7 +189,7 @@ Failures:
     Error: Expected undefined to equal ''.
 
 7 specs, 7 failures
-Finished in 0.006 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -443,7 +455,7 @@ Failures:
     Error: Expected undefined to equal false.
 
 6 specs, 6 failures
-Finished in 0.007 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -495,7 +507,7 @@ Failures:
     Error: Expected undefined to equal false.
 
 5 specs, 5 failures
-Finished in 0.004 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -599,7 +611,7 @@ Failures:
 
 
 3 specs, 3 failures
-Finished in 0.002 seconds
+Finished in 0.003 seconds
 
 ```
 

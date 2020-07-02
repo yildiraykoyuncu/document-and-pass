@@ -1,6 +1,18 @@
 Started
-......
+.F..F.
 
+Failures:
+1) Hello says hello world
+  Message:
+.    Expected '' to equal 'Hello, World!'..
 
-2 specs, 0 failures
-Finished in 0.006 seconds
+    Error: Expected '' to equal 'Hello, World!'.
+
+2) Hello says hello toys
+  Message:
+.    Expected '' to equal 'Hello, toys!'..
+
+    Error: Expected '' to equal 'Hello, toys!'.
+
+2 specs, 2 failures
+Finished in 0.009 seconds
