@@ -1,0 +1,25 @@
+{
+  "name": "document-and-pass",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node ./scripts/test.js",
+    "document": "node ./scripts/document.js",
+    "build": "npm run test && npm run document",
+    "action": "npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackyourfuturebelgium/document-and-pass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackyourfuturebelgium/document-and-pass/issues"
+  },
+  "homepage": "https://github.com/hackyourfuturebelgium/document-and-pass",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "jsdoc-to-markdown": "^6.0.1"
+  }
+}

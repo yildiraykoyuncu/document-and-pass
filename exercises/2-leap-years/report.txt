@@ -1,0 +1,42 @@
+Started
+.F..F..F..F..F..F.
+
+Failures:
+1) leapYears works with non century years
+  Message:
+.    Expected undefined to equal true..
+
+    Error: Expected undefined to equal true.
+
+2) leapYears works with non century years
+  Message:
+.    Expected undefined to equal false..
+
+    Error: Expected undefined to equal false.
+
+3) leapYears works with ridiculously futuristic non century years
+  Message:
+.    Expected undefined to equal true..
+
+    Error: Expected undefined to equal true.
+
+4) leapYears works with century years
+  Message:
+.    Expected undefined to equal false..
+
+    Error: Expected undefined to equal false.
+
+5) leapYears works with century years
+  Message:
+.    Expected undefined to equal true..
+
+    Error: Expected undefined to equal true.
+
+6) leapYears works with century years
+  Message:
+.    Expected undefined to equal false..
+
+    Error: Expected undefined to equal false.
+
+6 specs, 6 failures
+Finished in 0.014 seconds

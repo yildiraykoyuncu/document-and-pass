@@ -1,42 +1,39 @@
-These are a series of javascript exercises intended to be used alongside the curriculum at 'The Odin Project'  They start very simply, but get more involved as you progress through them.
+# Document and Pass
 
-There will eventually be a suggested order of completion, but at this time since we are still in the process of creating more exercises the order is subject to change and has not yet been specified... In general however there are a couple which make a good "starting point" feel free to at least start with these:
+These are a series of javascript exercises intended to help you learn how to document and test functions. They start very simply, but get more involved as you progress through them.
 
-1. Hello World
-1. Repeat String
-1. Reverse String
-
-## HOW TO USE THESE EXERCISES
+## Set-Up
 
 Before you start you should have a few things installed on your machine:
+
 1. NPM.  To check if you have NPM, type `npm --version` in a terminal. If you get back `Command 'npm' not found, but can be installed with:`, do NOT follow the instructions in the terminal to install with `apt-get` (this causes permission issues). Instead, install NPM/Node with NVM by following the instructions [here](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/installations/installing_node.md).
-3. Jasmine.  Jasmine is a testing framework for Javascript.  Type `jasmine -v` to check for it.  If you need to install it, type `npm install -g jasmine` to do so.
-4. Clone this repo and get started.
+1. Jasmine.  Jasmine is a testing framework for Javascript.  Type `jasmine -v` to check for it.  If you need to install it, type `npm install -g jasmine` to do so.
+1. Clone this repo
+1. `npm install`
+1. happy coding!
 
-Each exercise includes 3 files, a markdown file with a description of the task, an empty (or mostly empty) javascript file, and a set of tests.  To complete the exercise go to the exercise directory in a terminal and run:
-```
-jasmine filename.spec.js > report.txt
-```
-This should find and run the test file, then write the output into a file called `report.txt`.  It's this report file that your coaches will be checking to confirm that you've completed the exercises.
+## Studying
 
-Upon first running the tests you will find that the tests fail: this is by design!  Your task is to open up the javascript file and write the code needed to get all of the tests to pass. Some of the exercises have test conditions defined in the spec file that are defined as 'xit' compared to 'it'. This is purposeful, and as you test your solution against the first 'it', on success you will change the next 'xit' to an 'it' and test your code again, until all conditions are satisfied.
+Each exercise includes 4 files:
 
-## Suggested Exercises
+1. a markdown file with a description of the task
+1. an empty (or mostly empty) `index.js`, this is where you will write your code
+1. a set of tests in `index.spec.js`
+1. a file called `report.txt`, test results will be written to this file by `npm run test`
 
-The first exercise, `helloWorld` will walk you through the process in more depth.
+### Documenting
 
-After `helloWorld`, these are the exercises your coaches will be checking for:
-* `repeatString`
-* `reverseString`
-* `tempConversion`
-* `getTheTitles`
-* `findTheOldest`
-* `calculator`
-* `fibonacci`
-* `sumAll`
+Each `index.js` contains an empty function with an empty doc string.  Before writing any code take some time to study the test cases and write the docstring.  Understanding and describing the function's behavior before writing any code will set you up for success. Be sure to include:
 
-But all the exercises are great.  Don't stop just because you've finished these 7!
+1. A full description of the function's behavior (ie. test cases, not the code you write inside the function)
+1. A complete list of parameters, including their types and a short description
+1. The return value, including it's type and a short description
+1. An example use case
 
-## a quick note!
+To see what this looks like, check out `0-hello-world/index.js`.  To publish your jsdoc comments to the main README open this directory in CLI and enter `npm run document`.
 
-The generator exercise is not actually an exercise… it is a script that generates exercises. I was using it when I wrote them so I didn’t have to hack out the same boilerplate code every time I wrote a new one.
+### Passing
+
+To complete the exercise go to the exercise directory with `cd exercise-name` in a terminal and run `jasmine index.spec.js`.  This should find and run the test file and show you the output.  Upon first running the tests you will find that the tests fail: this is by design!  Your task is to open up the javascript file and write the code needed to get all of the tests to pass.
+
+The first exercise, `0-hello-world` will walk you through the process in more depth.

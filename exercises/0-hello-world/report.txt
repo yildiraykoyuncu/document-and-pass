@@ -1,0 +1,11 @@
+Started
+......
+
+
+<<<<<<< HEAD
+2 specs, 0 failures
+Finished in 0.023 seconds
+=======
+1 spec, 0 failures
+Finished in 0.005 seconds
+>>>>>>> 36809b7b3fb8ad154090362538c3df2eb63e6c9c
