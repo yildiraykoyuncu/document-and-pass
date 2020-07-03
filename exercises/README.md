@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/3/2020, 9:15:44 AM
+> 7/3/2020, 1:08:52 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -31,18 +31,18 @@
 A very simple function, it greets whatever you tell it to
 
 
-**Returns**: <code>string</code> - a friendly greeting
+**Returns**: <code>string</code> - a friendly greeting  
 
 | Param | Type | Description |
 | --- | --- | --- |
 | thing | <code>string</code> | the thing to greet |
 
-**Example**
+**Example**  
 ```js
 const greeting = hello('World');
 console.log(greeting); // 'Hello, World!'
 ```
-**Tests**
+**Test Report**
 ```
 Started
 .F..F.
@@ -70,7 +70,7 @@ Finished in 0.009 seconds
 
 ## removeFromArray()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F..F..F..F..F.
@@ -113,7 +113,7 @@ Finished in 0.008 seconds
 
 ## repeatString()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F..F..F..F..F.
@@ -141,7 +141,7 @@ Failures:
 .    Expected undefined to equal ''..
 
 7 specs, 7 failures
-Finished in 0.008 seconds
+Finished in 0.009 seconds
 
 ```
 
@@ -156,7 +156,7 @@ Finished in 0.008 seconds
 
 ## reverseString()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F..F.
@@ -175,7 +175,7 @@ Failures:
 .    Expected undefined to equal ''..
 
 4 specs, 4 failures
-Finished in 0.003 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -190,7 +190,7 @@ Finished in 0.003 seconds
 
 ## sumAll()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F..F..F..F.
@@ -215,7 +215,7 @@ Failures:
 .    Expected undefined to equal 'ERROR'..
 
 6 specs, 6 failures
-Finished in 0.006 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -230,7 +230,7 @@ Finished in 0.006 seconds
 
 ## fibonacci()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F..F..F..F..F..F..F.
@@ -264,7 +264,7 @@ Failures:
 .    Expected undefined to equal 21..
 
 9 specs, 9 failures
-Finished in 0.009 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -279,7 +279,7 @@ Finished in 0.009 seconds
 
 ## getTheTitles()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F.
@@ -304,7 +304,7 @@ Finished in 0.001 seconds
 
 ## leapYears()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F..F..F..F.
@@ -329,7 +329,7 @@ Failures:
 .    Expected undefined to equal false..
 
 6 specs, 6 failures
-Finished in 0.006 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -344,7 +344,7 @@ Finished in 0.006 seconds
 
 ## palindromes()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F..F..F.
@@ -381,7 +381,7 @@ Finished in 0.005 seconds
 
 ## caesar()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F..F..F..F..F.
@@ -409,7 +409,7 @@ Failures:
 .    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7 specs, 7 failures
-Finished in 0.006 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -424,7 +424,7 @@ Finished in 0.006 seconds
 
 ## findTheOldest()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F.
@@ -440,7 +440,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.003 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -455,7 +455,7 @@ Finished in 0.003 seconds
 
 ## translate()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F..F..F..F..F..F..F.
@@ -504,7 +504,7 @@ Finished in 0.008 seconds
 
 ## snakeCase()
 
-**Tests**
+**Test Report**
 ```
 Started
 .F..F..F..F..F..F.
