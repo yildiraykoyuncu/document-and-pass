@@ -3,20 +3,10 @@ Started
 
 Failures:
 1) Hello says hello world
-<<<<<<< HEAD
 .    Expected '' to equal 'Hello, World!'..
 
 2) Hello says hello toys
 .    Expected '' to equal 'Hello, toys!'..
 
 2 specs, 2 failures
-Finished in 0.016 seconds
-=======
-    Error: Expected '' to equal 'Hello, World!'.
-
-2) Hello says hello toys
-    Error: Expected '' to equal 'Hello, toys!'.
-
-2 specs, 2 failures
-Finished in 0.008 seconds
->>>>>>> 58a43deeea9e268ed21a50e9d8bf239f18f882fa
+Finished in 0.009 seconds

@@ -17,7 +17,7 @@ Before you start you should have a few things installed on your machine:
 Each exercise includes 4 files:
 
 1. a markdown file with a description of the task
-1. an empty (or mostly empty) `index.js`, this is where you will write your code
+1. an empty (or mostly empty) `index.js`, this is where you will write your code and documentation
 1. a set of tests in `index.spec.js`
 1. a file called `report.txt`, test results will be written to this file by `npm run test`
 

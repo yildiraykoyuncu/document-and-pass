@@ -6,8 +6,4 @@ Failures:
 .    Expected undefined to equal [ 'Book', 'Book2' ]..
 
 1 spec, 1 failure
-<<<<<<< HEAD
-Finished in 0.002 seconds
-=======
 Finished in 0.001 seconds
->>>>>>> 58a43deeea9e268ed21a50e9d8bf239f18f882fa

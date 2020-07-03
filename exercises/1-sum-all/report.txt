@@ -21,8 +21,4 @@ Failures:
 .    Expected undefined to equal 'ERROR'..
 
 6 specs, 6 failures
-<<<<<<< HEAD
-Finished in 0.025 seconds
-=======
-Finished in 0.005 seconds
->>>>>>> 58a43deeea9e268ed21a50e9d8bf239f18f882fa
+Finished in 0.006 seconds
