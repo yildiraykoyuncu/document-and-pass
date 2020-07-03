@@ -46,7 +46,7 @@ for (let nextPath of paths) {
     newDocs += '\n---\n\n'
       + `## [./${nextPath}](./${nextPath})\n\n`
       + kindlessDocs
-      + '**Tests**\n'
+      + '**Test Report**\n'
       + '```\n' + report + '\n```\n\n'
       + `[TOP](#${config.title.split(' ').join('-')})\n\n`;
 

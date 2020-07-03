@@ -31,13 +31,13 @@
 A very simple function, it greets whatever you tell it to
 
 
-**Returns**: <code>string</code> - a friendly greeting  
+**Returns**: <code>string</code> - a friendly greeting
 
 | Param | Type | Description |
 | --- | --- | --- |
 | thing | <code>string</code> | the thing to greet |
 
-**Example**  
+**Example**
 ```js
 const greeting = hello('World');
 console.log(greeting); // 'Hello, World!'
