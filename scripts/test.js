@@ -21,7 +21,6 @@ const testExercise = (paths, index) => {
   if (paths.length === index) { return; }
 
   const nextPath = paths[index];
-  console.log(nextPath)
 
   const subPath = path.normalize(path.join(EXERCISES_DIR, nextPath));
 
@@ -52,13 +51,7 @@ const testExercise = (paths, index) => {
       .split('[0m').join('')
       .split('').join('.');
 
-    const stackRegex1 = /\s+Stack[^\n]+/g;
-    const stackRegex2 = /\s+at [^\n]+/g;
-    const stackRemoved = colorsRemoved
-      .replace(stackRegex1, '')
-      .replace(stackRegex2, '');
-
-    fs.appendFileSync(reportPath, stackRemoved);
+    fs.appendFileSync(reportPath, colorsRemoved);
   });
 
 
@@ -76,8 +69,14 @@ const testExercise = (paths, index) => {
   jasmine.onComplete(function (passed) {
     // Stop capturing stdout.
     unhook_intercept();
+    // prettify the report
+    const report = fs.readFileSync(reportPath, 'utf-8');
+    const cleanReport = report
+      .replace(/\s+at [^\n]+/g, '')
+      .replace(/((\s+Message:)([\s\S]*?)(\s+Stack:))/g, '');
+    fs.writeFileSync(reportPath, cleanReport);
+
     // test the next exercise
-    console.log(passed)
     testExercise(paths, index + 1);
   });
 

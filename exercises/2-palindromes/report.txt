@@ -3,34 +3,19 @@ Started
 
 Failures:
 1) palindromes works with single words
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 2) palindromes works with punctuation
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 3) palindromes works with multiple words
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 4) palindromes works with multiple words
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 5) palindromes doesn't just always return true
-  Message:
-.    Expected undefined to equal false..
-
     Error: Expected undefined to equal false.
 
 5 specs, 5 failures
-Finished in 0.004 seconds
+Finished in 0.014 seconds

@@ -3,58 +3,31 @@ Started
 
 Failures:
 1) fibonacci works
-  Message:
-.    Expected undefined to equal 3..
-
     Error: Expected undefined to equal 3.
 
 2) fibonacci works
-  Message:
-.    Expected undefined to equal 8..
-
     Error: Expected undefined to equal 8.
 
 3) fibonacci works
-  Message:
-.    Expected undefined to equal 55..
-
     Error: Expected undefined to equal 55.
 
 4) fibonacci works
-  Message:
-.    Expected undefined to equal 610..
-
     Error: Expected undefined to equal 610.
 
 5) fibonacci works
-  Message:
-.    Expected undefined to equal 75025..
-
     Error: Expected undefined to equal 75025.
 
 6) fibonacci doesn't accept negatives
-  Message:
-.    Expected undefined to equal 'OOPS'..
-
     Error: Expected undefined to equal 'OOPS'.
 
 7) fibonacci DOES accept strings
-  Message:
-.    Expected undefined to equal 1..
-
     Error: Expected undefined to equal 1.
 
 8) fibonacci DOES accept strings
-  Message:
-.    Expected undefined to equal 1..
-
     Error: Expected undefined to equal 1.
 
 9) fibonacci DOES accept strings
-  Message:
-.    Expected undefined to equal 21..
-
     Error: Expected undefined to equal 21.
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.013 seconds

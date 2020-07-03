@@ -2,7 +2,6 @@ const fs = require("fs");
 const path = require("path");
 
 const jsdocToMarkdown = require('jsdoc-to-markdown');
-const { title } = require("process");
 
 const config = JSON.parse(fs.readFileSync(path.normalize(path.join(__dirname, '..', 'config.json')), 'utf-8'));
 
