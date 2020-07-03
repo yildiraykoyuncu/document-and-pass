@@ -24,4 +24,8 @@ Failures:
 .    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7 specs, 7 failures
+<<<<<<< HEAD
 Finished in 0.012 seconds
+=======
+Finished in 0.005 seconds
+>>>>>>> 58a43deeea9e268ed21a50e9d8bf239f18f882fa
