@@ -24,4 +24,4 @@ Failures:
 .    Expected undefined to equal [ 1, 2 ]..
 
 7 specs, 7 failures
-Finished in 0.007 seconds
+Finished in 0.008 seconds

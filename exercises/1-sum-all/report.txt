@@ -21,4 +21,4 @@ Failures:
 .    Expected undefined to equal 'ERROR'..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.006 seconds
