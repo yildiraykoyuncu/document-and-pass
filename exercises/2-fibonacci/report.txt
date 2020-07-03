@@ -30,8 +30,4 @@ Failures:
 .    Expected undefined to equal 21..
 
 9 specs, 9 failures
-<<<<<<< HEAD
-Finished in 0.015 seconds
-=======
 Finished in 0.007 seconds
->>>>>>> 58a43deeea9e268ed21a50e9d8bf239f18f882fa
