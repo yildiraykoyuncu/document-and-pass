@@ -14,7 +14,7 @@ Before you start you should have a few things installed on your machine:
 
 ## Studying
 
-Each exercise includes 4 files:
+Exercises are grouped by difficulty level (0, 1, 2, 3).  Each exercise includes 4 files:
 
 1. a markdown file with a description of the task
 1. an empty (or mostly empty) `index.js`, this is where you will write your code and documentation
