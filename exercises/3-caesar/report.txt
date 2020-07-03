@@ -24,4 +24,4 @@ Failures:
     Error: Expected undefined to equal 'Ebiil, Tloia!'.
 
 7 specs, 7 failures
-Finished in 0.013 seconds
+Finished in 0.005 seconds

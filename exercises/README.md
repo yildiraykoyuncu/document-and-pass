@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/2/2020, 3:12:52 PM
+> 7/3/2020, 9:05:27 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,19 +49,13 @@ Started
 
 Failures:
 1) Hello says hello world
-  Message:
-.    Expected '' to equal 'Hello, World!'..
-
     Error: Expected '' to equal 'Hello, World!'.
 
 2) Hello says hello toys
-  Message:
-.    Expected '' to equal 'Hello, toys!'..
-
     Error: Expected '' to equal 'Hello, toys!'.
 
 2 specs, 2 failures
-Finished in 0.009 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -83,49 +77,28 @@ Started
 
 Failures:
 1) removeFromArray removes a single value
-  Message:
-.    Expected undefined to equal [ 1, 2, 4 ]..
-
     Error: Expected undefined to equal [ 1, 2, 4 ].
 
 2) removeFromArray removes multiple values
-  Message:
-.    Expected undefined to equal [ 1, 4 ]..
-
     Error: Expected undefined to equal [ 1, 4 ].
 
 3) removeFromArray ignores non present values
-  Message:
-.    Expected undefined to equal [ 1, 2, 3, 4 ]..
-
     Error: Expected undefined to equal [ 1, 2, 3, 4 ].
 
 4) removeFromArray ignores non present values, but still works
-  Message:
-.    Expected undefined to equal [ 1, 3, 4 ]..
-
     Error: Expected undefined to equal [ 1, 3, 4 ].
 
 5) removeFromArray can remove all values
-  Message:
-.    Expected undefined to equal [  ]..
-
     Error: Expected undefined to equal [  ].
 
 6) removeFromArray works with strings
-  Message:
-.    Expected undefined to equal [ 2, 'ho' ]..
-
     Error: Expected undefined to equal [ 2, 'ho' ].
 
 7) removeFromArray only removes same type
-  Message:
-.    Expected undefined to equal [ 1, 2 ]..
-
     Error: Expected undefined to equal [ 1, 2 ].
 
 7 specs, 7 failures
-Finished in 0.009 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -147,49 +120,27 @@ Started
 
 Failures:
 1) repeatString repeats the string
-  Message:
-.    Expected undefined to equal 'heyheyhey'..
-
     Error: Expected undefined to equal 'heyheyhey'.
 
 2) repeatString repeats the string many times
-  Message:
-.    Expected undefined to equal 'heyheyheyheyheyheyheyheyheyhey'..
-
     Error: Expected undefined to equal 'heyheyheyheyheyheyheyheyheyhey'.
 
 3) repeatString repeats the string 1 times
-  Message:
-.    Expected undefined to equal 'hey'..
-
     Error: Expected undefined to equal 'hey'.
 
 4) repeatString repeats the string 0 times
-  Message:
-.    Expected undefined to equal ''..
-
     Error: Expected undefined to equal ''.
 
 5) repeatString returns ERROR with negative numbers
-  Message:
-.    Expected undefined to equal 'ERROR'..
-
     Error: Expected undefined to equal 'ERROR'.
 
 6) repeatString repeats the string a random amount of times
-  Message:
-.    TypeError: Cannot read property 'match' of undefined.
-
-
 
 7) repeatString works with blank strings
-  Message:
-.    Expected undefined to equal ''..
-
     Error: Expected undefined to equal ''.
 
 7 specs, 7 failures
-Finished in 0.008 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -211,27 +162,15 @@ Started
 
 Failures:
 1) reverseString reverses single word
-  Message:
-.    Expected undefined to equal 'olleh'..
-
     Error: Expected undefined to equal 'olleh'.
 
 2) reverseString reverses multiple words
-  Message:
-.    Expected undefined to equal 'ereht olleh'..
-
     Error: Expected undefined to equal 'ereht olleh'.
 
 3) reverseString works with numbers and punctuation
-  Message:
-.    Expected undefined to equal '!cba !321'..
-
     Error: Expected undefined to equal '!cba !321'.
 
 4) reverseString works with blank strings
-  Message:
-.    Expected undefined to equal ''..
-
     Error: Expected undefined to equal ''.
 
 4 specs, 4 failures
@@ -257,43 +196,25 @@ Started
 
 Failures:
 1) sumAll sums numbers within the range
-  Message:
-.    Expected undefined to equal 10..
-
     Error: Expected undefined to equal 10.
 
 2) sumAll works with large numbers
-  Message:
-.    Expected undefined to equal 8002000..
-
     Error: Expected undefined to equal 8002000.
 
 3) sumAll works with larger number first
-  Message:
-.    Expected undefined to equal 7626..
-
     Error: Expected undefined to equal 7626.
 
 4) sumAll returns ERROR with negative numbers
-  Message:
-.    Expected undefined to equal 'ERROR'..
-
     Error: Expected undefined to equal 'ERROR'.
 
 5) sumAll returns ERROR with non-number parameters
-  Message:
-.    Expected undefined to equal 'ERROR'..
-
     Error: Expected undefined to equal 'ERROR'.
 
 6) sumAll returns ERROR with non-number parameters
-  Message:
-.    Expected undefined to equal 'ERROR'..
-
     Error: Expected undefined to equal 'ERROR'.
 
 6 specs, 6 failures
-Finished in 0.006 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -315,61 +236,34 @@ Started
 
 Failures:
 1) fibonacci works
-  Message:
-.    Expected undefined to equal 3..
-
     Error: Expected undefined to equal 3.
 
 2) fibonacci works
-  Message:
-.    Expected undefined to equal 8..
-
     Error: Expected undefined to equal 8.
 
 3) fibonacci works
-  Message:
-.    Expected undefined to equal 55..
-
     Error: Expected undefined to equal 55.
 
 4) fibonacci works
-  Message:
-.    Expected undefined to equal 610..
-
     Error: Expected undefined to equal 610.
 
 5) fibonacci works
-  Message:
-.    Expected undefined to equal 75025..
-
     Error: Expected undefined to equal 75025.
 
 6) fibonacci doesn't accept negatives
-  Message:
-.    Expected undefined to equal 'OOPS'..
-
     Error: Expected undefined to equal 'OOPS'.
 
 7) fibonacci DOES accept strings
-  Message:
-.    Expected undefined to equal 1..
-
     Error: Expected undefined to equal 1.
 
 8) fibonacci DOES accept strings
-  Message:
-.    Expected undefined to equal 1..
-
     Error: Expected undefined to equal 1.
 
 9) fibonacci DOES accept strings
-  Message:
-.    Expected undefined to equal 21..
-
     Error: Expected undefined to equal 21.
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -391,9 +285,6 @@ Started
 
 Failures:
 1) getTheTitles gets titles
-  Message:
-.    Expected undefined to equal [ 'Book', 'Book2' ]..
-
     Error: Expected undefined to equal [ 'Book', 'Book2' ].
 
 1 spec, 1 failure
@@ -419,43 +310,25 @@ Started
 
 Failures:
 1) leapYears works with non century years
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 2) leapYears works with non century years
-  Message:
-.    Expected undefined to equal false..
-
     Error: Expected undefined to equal false.
 
 3) leapYears works with ridiculously futuristic non century years
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 4) leapYears works with century years
-  Message:
-.    Expected undefined to equal false..
-
     Error: Expected undefined to equal false.
 
 5) leapYears works with century years
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 6) leapYears works with century years
-  Message:
-.    Expected undefined to equal false..
-
     Error: Expected undefined to equal false.
 
 6 specs, 6 failures
-Finished in 0.006 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -477,37 +350,22 @@ Started
 
 Failures:
 1) palindromes works with single words
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 2) palindromes works with punctuation
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 3) palindromes works with multiple words
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 4) palindromes works with multiple words
-  Message:
-.    Expected undefined to equal true..
-
     Error: Expected undefined to equal true.
 
 5) palindromes doesn't just always return true
-  Message:
-.    Expected undefined to equal false..
-
     Error: Expected undefined to equal false.
 
 5 specs, 5 failures
-Finished in 0.005 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -529,49 +387,28 @@ Started
 
 Failures:
 1) caesar works with single letters
-  Message:
-.    Expected undefined to equal 'B'..
-
     Error: Expected undefined to equal 'B'.
 
 2) caesar works with words
-  Message:
-.    Expected undefined to equal 'Bbb'..
-
     Error: Expected undefined to equal 'Bbb'.
 
 3) caesar works with phrases
-  Message:
-.    Expected undefined to equal 'Mjqqt, Btwqi!'..
-
     Error: Expected undefined to equal 'Mjqqt, Btwqi!'.
 
 4) caesar works with negative shift
-  Message:
-.    Expected undefined to equal 'Hello, World!'..
-
     Error: Expected undefined to equal 'Hello, World!'.
 
 5) caesar wraps
-  Message:
-.    Expected undefined to equal 'A'..
-
     Error: Expected undefined to equal 'A'.
 
 6) caesar works with large shift factors
-  Message:
-.    Expected undefined to equal 'Ebiil, Tloia!'..
-
     Error: Expected undefined to equal 'Ebiil, Tloia!'.
 
 7) caesar works with large negative shift factors
-  Message:
-.    Expected undefined to equal 'Ebiil, Tloia!'..
-
     Error: Expected undefined to equal 'Ebiil, Tloia!'.
 
 7 specs, 7 failures
-Finished in 0.006 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -593,22 +430,10 @@ Started
 
 Failures:
 1) findTheOldest finds the oldest person!
-  Message:
-.    TypeError: Cannot read property 'name' of undefined.
-
-
 
 2) findTheOldest finds the oldest person if someone is still living
-  Message:
-.    TypeError: Cannot read property 'name' of undefined.
-
-
 
 3) findTheOldest finds the oldest person if the OLDEST is still living
-  Message:
-.    TypeError: Cannot read property 'name' of undefined.
-
-
 
 3 specs, 3 failures
 Finished in 0.003 seconds
@@ -633,61 +458,34 @@ Started
 
 Failures:
 1) #translate translates a word beginning with a vowel
-  Message:
-.    Expected undefined to equal 'appleay'..
-
     Error: Expected undefined to equal 'appleay'.
 
 2) #translate translates a word beginning with a consonant
-  Message:
-.    Expected undefined to equal 'ananabay'..
-
     Error: Expected undefined to equal 'ananabay'.
 
 3) #translate translates a word beginning with two consonants
-  Message:
-.    Expected undefined to equal 'errychay'..
-
     Error: Expected undefined to equal 'errychay'.
 
 4) #translate translates two words
-  Message:
-.    Expected undefined to equal 'eatay iepay'..
-
     Error: Expected undefined to equal 'eatay iepay'.
 
 5) #translate translates a word beginning with three consonants
-  Message:
-.    Expected undefined to equal 'eethray'..
-
     Error: Expected undefined to equal 'eethray'.
 
 6) #translate counts "sch" as a single phoneme
-  Message:
-.    Expected undefined to equal 'oolschay'..
-
     Error: Expected undefined to equal 'oolschay'.
 
 7) #translate counts "qu" as a single phoneme
-  Message:
-.    Expected undefined to equal 'ietquay'..
-
     Error: Expected undefined to equal 'ietquay'.
 
 8) #translate counts "qu" as a consonant even when its preceded by a consonant
-  Message:
-.    Expected undefined to equal 'aresquay'..
-
     Error: Expected undefined to equal 'aresquay'.
 
 9) #translate translates many words
-  Message:
-.    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
-
     Error: Expected undefined to equal 'ethay ickquay ownbray oxfay'.
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -709,43 +507,25 @@ Started
 
 Failures:
 1) snakeCase works with simple lowercased phrases
-  Message:
-.    Expected undefined to equal 'hello_world'..
-
     Error: Expected undefined to equal 'hello_world'.
 
 2) snakeCase works with Caps and punctuation
-  Message:
-.    Expected undefined to equal 'hello_world'..
-
     Error: Expected undefined to equal 'hello_world'.
 
 3) snakeCase works with longer phrases
-  Message:
-.    Expected undefined to equal 'this_is_the_song_that_never_ends'..
-
     Error: Expected undefined to equal 'this_is_the_song_that_never_ends'.
 
 4) snakeCase works with camel case
-  Message:
-.    Expected undefined to equal 'snake_case'..
-
     Error: Expected undefined to equal 'snake_case'.
 
 5) snakeCase works with kebab case
-  Message:
-.    Expected undefined to equal 'snake_case'..
-
     Error: Expected undefined to equal 'snake_case'.
 
 6) snakeCase works with WTF case
-  Message:
-.    Expected undefined to equal 'snake_case_is_awesome'..
-
     Error: Expected undefined to equal 'snake_case_is_awesome'.
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.003 seconds
 
 ```
 

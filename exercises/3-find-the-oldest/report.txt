@@ -9,8 +9,4 @@ Failures:
 3) findTheOldest finds the oldest person if the OLDEST is still living
 
 3 specs, 3 failures
-<<<<<<< HEAD
-Finished in 0.004 seconds
-=======
 Finished in 0.003 seconds
->>>>>>> 4c1a042643e6abcaa5b510fe2716773b507e11fc
