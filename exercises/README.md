@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/3/2020, 1:08:52 PM
+> 7/3/2020, 3:35:30 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -141,7 +141,7 @@ Failures:
 .    Expected undefined to equal ''..
 
 7 specs, 7 failures
-Finished in 0.009 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -175,7 +175,7 @@ Failures:
 .    Expected undefined to equal ''..
 
 4 specs, 4 failures
-Finished in 0.004 seconds
+Finished in 0.003 seconds
 
 ```
 
@@ -409,7 +409,7 @@ Failures:
 .    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7 specs, 7 failures
-Finished in 0.005 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -440,7 +440,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.005 seconds
+Finished in 0.003 seconds
 
 ```
 
@@ -489,7 +489,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.007 seconds
 
 ```
 
