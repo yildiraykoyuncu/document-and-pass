@@ -3,22 +3,22 @@ Started
 
 Failures:
 1) snakeCase works with simple lowercased phrases
-    Error: Expected undefined to equal 'hello_world'.
+.    Expected undefined to equal 'hello_world'..
 
 2) snakeCase works with Caps and punctuation
-    Error: Expected undefined to equal 'hello_world'.
+.    Expected undefined to equal 'hello_world'..
 
 3) snakeCase works with longer phrases
-    Error: Expected undefined to equal 'this_is_the_song_that_never_ends'.
+.    Expected undefined to equal 'this_is_the_song_that_never_ends'..
 
 4) snakeCase works with camel case
-    Error: Expected undefined to equal 'snake_case'.
+.    Expected undefined to equal 'snake_case'..
 
 5) snakeCase works with kebab case
-    Error: Expected undefined to equal 'snake_case'.
+.    Expected undefined to equal 'snake_case'..
 
 6) snakeCase works with WTF case
-    Error: Expected undefined to equal 'snake_case_is_awesome'.
+.    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.013 seconds
+Finished in 0.009 seconds

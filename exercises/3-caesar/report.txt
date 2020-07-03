@@ -3,25 +3,25 @@ Started
 
 Failures:
 1) caesar works with single letters
-    Error: Expected undefined to equal 'B'.
+.    Expected undefined to equal 'B'..
 
 2) caesar works with words
-    Error: Expected undefined to equal 'Bbb'.
+.    Expected undefined to equal 'Bbb'..
 
 3) caesar works with phrases
-    Error: Expected undefined to equal 'Mjqqt, Btwqi!'.
+.    Expected undefined to equal 'Mjqqt, Btwqi!'..
 
 4) caesar works with negative shift
-    Error: Expected undefined to equal 'Hello, World!'.
+.    Expected undefined to equal 'Hello, World!'..
 
 5) caesar wraps
-    Error: Expected undefined to equal 'A'.
+.    Expected undefined to equal 'A'..
 
 6) caesar works with large shift factors
-    Error: Expected undefined to equal 'Ebiil, Tloia!'.
+.    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7) caesar works with large negative shift factors
-    Error: Expected undefined to equal 'Ebiil, Tloia!'.
+.    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7 specs, 7 failures
-Finished in 0.013 seconds
+Finished in 0.012 seconds

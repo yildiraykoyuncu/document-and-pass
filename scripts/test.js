@@ -72,8 +72,10 @@ const testExercise = (paths, index) => {
     // prettify the report
     const report = fs.readFileSync(reportPath, 'utf-8');
     const cleanReport = report
-      .replace(/\s+at [^\n]+/g, '')
-      .replace(/((\s+Message:)([\s\S]*?)(\s+Stack:))/g, '');
+      .replace(/\s+Message[^\n]+/g, '')
+      .replace(/((\s+Stack:)([\s\S]*?)(\n\n))/g, '\n\n');
+    // .replace(/\s+at [^\n]+/g, '')
+    // .replace(/((\s+Message:)([\s\S]*?)(\s+Stack:))/g, '');
     fs.writeFileSync(reportPath, cleanReport);
 
     // test the next exercise

@@ -3,28 +3,25 @@ Started
 
 Failures:
 1) repeatString repeats the string
-    Error: Expected undefined to equal 'heyheyhey'.
+.    Expected undefined to equal 'heyheyhey'..
 
 2) repeatString repeats the string many times
-    Error: Expected undefined to equal 'heyheyheyheyheyheyheyheyheyhey'.
+.    Expected undefined to equal 'heyheyheyheyheyheyheyheyheyhey'..
 
 3) repeatString repeats the string 1 times
-    Error: Expected undefined to equal 'hey'.
+.    Expected undefined to equal 'hey'..
 
 4) repeatString repeats the string 0 times
-    Error: Expected undefined to equal ''.
+.    Expected undefined to equal ''..
 
 5) repeatString returns ERROR with negative numbers
-    Error: Expected undefined to equal 'ERROR'.
+.    Expected undefined to equal 'ERROR'..
 
 6) repeatString repeats the string a random amount of times
+.    TypeError: Cannot read property 'match' of undefined.
 
 7) repeatString works with blank strings
-    Error: Expected undefined to equal ''.
+.    Expected undefined to equal ''..
 
 7 specs, 7 failures
-<<<<<<< HEAD
-Finished in 0.012 seconds
-=======
-Finished in 0.008 seconds
->>>>>>> 4c1a042643e6abcaa5b510fe2716773b507e11fc
+Finished in 0.03 seconds

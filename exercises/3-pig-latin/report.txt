@@ -3,31 +3,31 @@ Started
 
 Failures:
 1) #translate translates a word beginning with a vowel
-    Error: Expected undefined to equal 'appleay'.
+.    Expected undefined to equal 'appleay'..
 
 2) #translate translates a word beginning with a consonant
-    Error: Expected undefined to equal 'ananabay'.
+.    Expected undefined to equal 'ananabay'..
 
 3) #translate translates a word beginning with two consonants
-    Error: Expected undefined to equal 'errychay'.
+.    Expected undefined to equal 'errychay'..
 
 4) #translate translates two words
-    Error: Expected undefined to equal 'eatay iepay'.
+.    Expected undefined to equal 'eatay iepay'..
 
 5) #translate translates a word beginning with three consonants
-    Error: Expected undefined to equal 'eethray'.
+.    Expected undefined to equal 'eethray'..
 
 6) #translate counts "sch" as a single phoneme
-    Error: Expected undefined to equal 'oolschay'.
+.    Expected undefined to equal 'oolschay'..
 
 7) #translate counts "qu" as a single phoneme
-    Error: Expected undefined to equal 'ietquay'.
+.    Expected undefined to equal 'ietquay'..
 
 8) #translate counts "qu" as a consonant even when its preceded by a consonant
-    Error: Expected undefined to equal 'aresquay'.
+.    Expected undefined to equal 'aresquay'..
 
 9) #translate translates many words
-    Error: Expected undefined to equal 'ethay ickquay ownbray oxfay'.
+.    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.018 seconds
+Finished in 0.019 seconds

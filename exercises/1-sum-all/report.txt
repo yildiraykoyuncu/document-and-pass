@@ -3,22 +3,22 @@ Started
 
 Failures:
 1) sumAll sums numbers within the range
-    Error: Expected undefined to equal 10.
+.    Expected undefined to equal 10..
 
 2) sumAll works with large numbers
-    Error: Expected undefined to equal 8002000.
+.    Expected undefined to equal 8002000..
 
 3) sumAll works with larger number first
-    Error: Expected undefined to equal 7626.
+.    Expected undefined to equal 7626..
 
 4) sumAll returns ERROR with negative numbers
-    Error: Expected undefined to equal 'ERROR'.
+.    Expected undefined to equal 'ERROR'..
 
 5) sumAll returns ERROR with non-number parameters
-    Error: Expected undefined to equal 'ERROR'.
+.    Expected undefined to equal 'ERROR'..
 
 6) sumAll returns ERROR with non-number parameters
-    Error: Expected undefined to equal 'ERROR'.
+.    Expected undefined to equal 'ERROR'..
 
 6 specs, 6 failures
-Finished in 0.011 seconds
+Finished in 0.025 seconds
