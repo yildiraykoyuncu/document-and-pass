@@ -3,4 +3,4 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.048 seconds
+Finished in 0.094 seconds

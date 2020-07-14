@@ -12,4 +12,4 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.048 seconds
+Finished in 0.079 seconds
